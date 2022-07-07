@@ -1,0 +1,8 @@
+package userService;
+
+import java.sql.Connection;
+
+public class ConnectionString {
+
+	static Connection con = null;
+}

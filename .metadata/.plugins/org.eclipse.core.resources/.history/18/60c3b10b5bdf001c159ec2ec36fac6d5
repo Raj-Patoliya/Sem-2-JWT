@@ -1,0 +1,12 @@
+package net.javaguides.springboot.Service;
+
+import java.util.List;
+
+import net.javaguides.springboot.Model.Teacher;
+
+
+public interface TeacherService {
+	List<Teacher> getAllTeachers();
+	void teacherSave(Teacher teacher);
+	List<Teacher> getTeacherByDeptId(String deptId);
+}

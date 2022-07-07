@@ -1,0 +1,6 @@
+package userService;
+import model.*;
+public class UserDao {
+
+	
+}

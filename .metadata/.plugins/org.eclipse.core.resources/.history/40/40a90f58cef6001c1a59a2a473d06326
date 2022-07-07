@@ -1,0 +1,10 @@
+package userDao;
+import model.*;
+import java.sql.Statement;
+public class UserService {
+	static Connection con = Connection.getCon();
+	public static void insertUser(User user)
+	{
+		Statement stmt = con.
+	}
+}

@@ -1,0 +1,43 @@
+package net.javaguides.springboot.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import net.javaguides.springboot.Model.Login;
+import net.javaguides.springboot.Model.Teacher;
+import net.javaguides.springboot.Service.TeacherService;
+
+@Controller
+public class TeacherController {
+
+	@Autowired
+	private TeacherService teacherService;
+	@GetMapping("TeacherLogin")
+	public String TeacherLogin()
+	{
+		return "Teacher/TeacherLoginPage";
+	}
+	@GetMapping("/")
+	public String index()
+	{
+		return "Teacher/index-2";
+	}
+	@PostMapping("teacherAuth")
+	public String teacherAuth(@ModelAttribute("login") Login login)
+	{
+			String userId = login.getUserId();
+			String password = login.getPassword();		
+			Teacher teacher =  teacherService.teacherAuth(userId, password);
+			System.out.println(teacher.getFullName());
+			System.out.println(teacher.getUserId());
+			System.out.println(teacher.getPassword());
+			System.out.println(teacher.getDeptCode());
+			System.out.println(teacher.getDesignation());
+			return "Teacher/TeacherLoginPage";
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+package userService;
+import model.*;
+import java.sql.Connection;
+import java.sql.Statement;
+
+public class UserDao {
+	Connection conn = ConnectionString.getConnection();
+	
+	public static void saveUser(User user)
+	{
+		Statement stmt = conn
+	}
+}

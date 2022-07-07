@@ -1,0 +1,12 @@
+package net.javaguides.springboot.Model;
+
+public class Student {
+	private long id;
+	private String fullName;
+	private String rollNo;
+	private String enrolmentNo;
+	private String userId;
+	private String password;
+	private String year;
+	private String semester;
+}

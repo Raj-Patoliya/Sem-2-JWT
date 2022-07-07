@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;webapp&apos;&#x0D;&#x0A;- Original project: &apos;Raj-20220604T041502Z-001.zip_expanded&apos;&#x0D;&#x0A;- Destination element: &apos;webapp&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     index.jsp&#x0D;&#x0A;     Login.jsp&#x0D;&#x0A;     Header.jsp&#x0D;&#x0A;     Footer.jsp" description="Copy files" element1="Raj/WebContent/index.jsp" element2="Raj/WebContent/Login.jsp" element3="Raj/WebContent/Header.jsp" element4="Raj/WebContent/Footer.jsp" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1654316969715" target="/Question 8/src/main/webapp" units="0" version="1.0"/>
+</session>

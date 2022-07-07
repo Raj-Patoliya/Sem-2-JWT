@@ -1,0 +1,5 @@
+package userDao;
+import model.*;
+public class UserService {
+	public static void insertUser(User user)
+}

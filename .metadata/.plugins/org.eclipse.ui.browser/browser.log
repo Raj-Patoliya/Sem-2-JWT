@@ -1,0 +1,12 @@
+
+Apr 22, 2022 14:52:10.587 NEW SESSION
+Apr 22, 2022 14:52:10.587 [11900:1780:0422/145210.569:ERROR:device_event_log_impl.cc(214)] [14:52:10.568] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Apr 22, 2022 14:52:10.588 [11900:1780:0422/145210.569:ERROR:device_event_log_impl.cc(214)] [14:52:10.569] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Apr 22, 2022 14:52:16.41 [11900:9212:0422/145216.040:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+Apr 22, 2022 14:52:39.344 [11900:9212:0422/145239.344:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+Apr 22, 2022 14:53:29.364 [11900:9212:0422/145329.364:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+Apr 22, 2022 14:55:38.607 [11900:9212:0422/145538.607:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+Apr 22, 2022 14:58:21.445 [11900:9212:0422/145821.445:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+Apr 22, 2022 15:05:46.294 [11900:9212:0422/150546.294:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+Apr 22, 2022 15:07:35.761 [11900:9212:0422/150735.761:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 22, 2022 15:07:53.940 [11900:9212:0422/150753.939:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105

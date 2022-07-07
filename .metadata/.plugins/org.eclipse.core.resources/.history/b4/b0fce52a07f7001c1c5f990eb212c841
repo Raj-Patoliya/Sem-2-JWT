@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Database-Crud-Operation">
+        <property name="context-root" value="Database-Crud-Operation"/>
+        <property name="java-output-path" value="/Database-Crud-Operation/build/classes"/>
+    </wb-module>
+</project-modules>

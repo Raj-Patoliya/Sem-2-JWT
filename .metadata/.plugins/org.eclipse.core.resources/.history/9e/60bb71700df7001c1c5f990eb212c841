@@ -1,0 +1,22 @@
+package userService;
+import model.*;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class UserDao {
+	static Connection conn = ConnectionString.getConnection();
+	
+	public static void saveUser(User user)
+	{
+		
+		try {
+			Statement stmt = conn.createStatement();
+			stmt.executeUpdate("nse");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}
